@@ -38,6 +38,7 @@ public class ModBlocks
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)),
             ModItemGroup.TANZANITE);
 
+
     private static Block registerBlock(String name, Block block, ItemGroup group)
     {
         registerBlockItem(name, block, group);
