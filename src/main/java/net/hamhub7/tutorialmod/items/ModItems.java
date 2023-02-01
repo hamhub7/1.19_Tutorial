@@ -3,7 +3,10 @@ package net.hamhub7.tutorialmod.items;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hamhub7.tutorialmod.TutorialMod;
+import net.hamhub7.tutorialmod.block.ModBlocks;
 import net.hamhub7.tutorialmod.items.custom.EightBallItem;
+import net.minecraft.item.AliasedBlockItem;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
@@ -23,6 +26,13 @@ public class ModItems
             new EightBallItem(new FabricItemSettings().maxCount(1)),
             ModItemGroup.TANZANITE);
 
+    public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
+            new AliasedBlockItem(ModBlocks.EGGPLANT_CROP, new FabricItemSettings()),
+            ModItemGroup.TANZANITE);
+
+    public static final Item EGGPLANT = registerItem("eggplant",
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())),
+            ModItemGroup.TANZANITE);
 
     private static Item registerItem(String name, Item item, ItemGroup group)
     {
