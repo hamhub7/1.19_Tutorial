@@ -6,7 +6,7 @@ import net.fabricmc.fabric.api.object.builder.v1.villager.VillagerProfessionBuil
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.hamhub7.tutorialmod.TutorialMod;
 import net.hamhub7.tutorialmod.block.ModBlocks;
-import net.hamhub7.tutorialmod.items.ModItems;
+import net.hamhub7.tutorialmod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

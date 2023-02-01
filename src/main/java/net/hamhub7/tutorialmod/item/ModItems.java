@@ -1,10 +1,10 @@
-package net.hamhub7.tutorialmod.items;
+package net.hamhub7.tutorialmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hamhub7.tutorialmod.TutorialMod;
 import net.hamhub7.tutorialmod.block.ModBlocks;
-import net.hamhub7.tutorialmod.items.custom.EightBallItem;
+import net.hamhub7.tutorialmod.item.custom.EightBallItem;
 import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;

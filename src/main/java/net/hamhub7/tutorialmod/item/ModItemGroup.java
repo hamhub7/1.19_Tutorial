@@ -1,4 +1,4 @@
-package net.hamhub7.tutorialmod.items;
+package net.hamhub7.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.hamhub7.tutorialmod.TutorialMod;

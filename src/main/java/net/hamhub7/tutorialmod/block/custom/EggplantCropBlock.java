@@ -1,6 +1,6 @@
 package net.hamhub7.tutorialmod.block.custom;
 
-import net.hamhub7.tutorialmod.items.ModItems;
+import net.hamhub7.tutorialmod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;

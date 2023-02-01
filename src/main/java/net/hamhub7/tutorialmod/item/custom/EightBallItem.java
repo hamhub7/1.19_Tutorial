@@ -1,4 +1,4 @@
-package net.hamhub7.tutorialmod.items.custom;
+package net.hamhub7.tutorialmod.item.custom;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;

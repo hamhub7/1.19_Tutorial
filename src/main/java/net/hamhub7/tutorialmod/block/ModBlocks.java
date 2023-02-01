@@ -7,7 +7,7 @@ import net.hamhub7.tutorialmod.TutorialMod;
 import net.hamhub7.tutorialmod.block.custom.EggplantCropBlock;
 import net.hamhub7.tutorialmod.block.custom.JumpyBlock;
 import net.hamhub7.tutorialmod.block.custom.TanzaniteLampBlock;
-import net.hamhub7.tutorialmod.items.ModItemGroup;
+import net.hamhub7.tutorialmod.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
