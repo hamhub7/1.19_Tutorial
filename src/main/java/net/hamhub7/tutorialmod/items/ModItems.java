@@ -3,6 +3,7 @@ package net.hamhub7.tutorialmod.items;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hamhub7.tutorialmod.TutorialMod;
+import net.hamhub7.tutorialmod.items.custom.EightBallItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,10 @@ public class ModItems
             ModItemGroup.TANZANITE);
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings()),
+            ModItemGroup.TANZANITE);
+
+    public static final Item EIGHTBALL = registerItem("eight_ball",
+            new EightBallItem(new FabricItemSettings().maxCount(1)),
             ModItemGroup.TANZANITE);
 
 
